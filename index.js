@@ -56,7 +56,7 @@ app.post("/videos", (req, res) => {
     title: req.body.title,
     description: req.body.description,
     channel: "mock channel",
-    image: "/images/pngkey.com-ega-png-2332677.png",
+    image: "http://localhost:8080/images/placeholder.png",
     comments: [
       { name: "name", comment: "blown", likes: 25, timestamp: new Date() },
       { name: "name", comment: "blown", likes: 25, timestamp: new Date() },
